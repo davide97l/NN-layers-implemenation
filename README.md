@@ -3,7 +3,9 @@
 ## 1 Intro
 **MNIST** digits dataset is a widely used dataset for image classiﬁcation in machine learning ﬁeld. It contains 60000 training examples and 100000 testing examples. The digits have been size-normalized and centered in a ﬁxed-size image. Each example is a 784×1 matrix, which is transformed from an original 28×28 grayscale image. Digits in MNIST range from 0 to 9. Some examples are shown below.
 
-![MNIST dataset](https://cdn-images-1.medium.com/max/800/0*At0wJRULTXvyA3EK.png)
+<p align="center">
+  <img width="300" height="300" src="https://cdn-images-1.medium.com/max/800/0*At0wJRULTXvyA3EK.png">
+</p>
 
 In this project, have been built a **Softmax Classiﬁer** and a **Multilayer Perceptron(MLP)** to perform MNIST classiﬁcation respectively.
 
