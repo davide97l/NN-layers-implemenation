@@ -37,7 +37,7 @@ In addition, there are several layers deﬁned in criterion/ and layers/. Our im
 Since ConvNet operates on two-dimensional input, we need to convert the raw data of 784×1 vector into 28×28 matrix. The data preprocessing and conversion have been done in the starter code.
 
 ### 4.1 FilesDescription 
-- **homework_3.ipynb** describes the contents of this project.
+- **ConvNet.ipynb** describes the contents of this project.
 - **conv_layer.py** implements the convolutional layer. It consists of trainable weight W and bias b. W is stored in 4 dimensional matrix with dimensions (n_out, n_in, kh, kw), where kh and kw speciﬁes the height and width of each ﬁlter (also called kernel size), n_in denotes the channels number of input which each filter will convolve with, and n_out denotes the number of the filters. There is another important parameter pad which speciﬁes the number of zeros to add to each side of the input. Therefore the expected height dimension of output should be equal to H + 2 × pad−kernel_size + 1 and width likewise.
 - **pooling_layer.py** is the MaxPoolingLayer and has only been implemented in non-overlapping style (stride=kernel_size). Therefore the expected height dimension of output should be equal to (H + 2 × pad) / kernel_size and width likewise.
 - **dropout_layer.py** implements Dropout layer.
